@@ -243,7 +243,8 @@
 	}
 
 	.block-forms__propertys__big-btn button:last-child{
-		width: 160px;
+		width: 158px;
+		width: 55.6%;
 	}
 
 	.block-forms__propertys-description{

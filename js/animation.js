@@ -127,10 +127,10 @@ if(pageYOffset >= 200 && blockCnt.animationBln === false){
 	})
 }
 
-console.log(pageYOffset)
 
 if(pageYOffset >= 3000 && blockFtr.animationBln === false || 
-	window.innerWidth < 600 && pageYOffset >= 1000 && blockFtr.animationBln === false ){
+	window.innerWidth < 600 && pageYOffset >= 1000 && blockFtr.animationBln === false ||
+	window.innerWidth >= 600 && pageYOffset >= 2500 && blockFtr.animationBln === false ){
 	 blockFtr.animationBln = true;
 	 blockFtr.style.opacity = '';
 //footer

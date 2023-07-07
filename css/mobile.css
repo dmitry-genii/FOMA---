@@ -440,7 +440,8 @@
 	footer{
 		height: auto;
 		padding: 0 0px 0 0px;
-		margin-top: 250px;
+		margin-top: 450px;
+		height: 257px;
 	}
 
 	.footer-content{
@@ -491,7 +492,6 @@
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 28px;
-
 		font-family: 'Montserrat';
 	}
 
